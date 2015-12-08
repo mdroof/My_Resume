@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_education" android:icon="@drawable/ic_school"
+            android:title="Education" />
+        <item android:id="@+id/nav_work_experience" android:icon="@drawable/ic_action_business"
+            android:title="Work Experience" />
+        <item android:id="@+id/nav_course_work" android:icon="@drawable/ic_action_document"
+            android:title="Course Work" />
+        <item android:id="@+id/nav_honors" android:icon="@drawable/ic_action_achievement"
+            android:title="Honors and Awards" />
+    </group>
+
+    <item android:title="Contact Me">
+        <menu>
+            <item android:id="@+id/nav_call_me" android:icon="@drawable/ic_call"
+                android:title="Call Me" />
+            <item android:id="@+id/nav_email_me" android:icon="@drawable/ic_email"
+                android:title="Email Me" />
+        </menu>
+    </item>
+
+</menu>
