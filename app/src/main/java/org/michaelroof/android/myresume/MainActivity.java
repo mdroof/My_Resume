@@ -101,11 +101,12 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_course_work) {
             setTitle(getResources().getString(R.string.title_course_work));
-            fragment = new WorkContent();
+            fragment = new CourseWorkContent();
 
         } else if (id == R.id.nav_honors) {
             setTitle(getResources().getString(R.string.title_honors));
-            fragment = new WorkContent();
+            fragment = new HonorsContent();
+
         } else if (id == R.id.nav_call_me) {
             fragment = new WorkContent();
 
